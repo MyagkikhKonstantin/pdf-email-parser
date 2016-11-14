@@ -17,14 +17,14 @@ installing library for pdf parsing
 
 
 installing python requirements
-
-`pip install -r requirements`
+```
+pip install -r requirements
+python setup.py install
+```
 
 # test
 run test
-`
-python -m unittest discover
-`
+`python -m unittest discover`
 
 # run
 `/usr/local/bin/email_parser`
