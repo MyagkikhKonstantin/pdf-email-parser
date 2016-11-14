@@ -27,7 +27,7 @@ def insert_new_order(order):
     logger.info('Start inserting')
     worksheet = get_worksheet()
     cells_relation = {
-                      'priority':                 [2, 'B', 'Prority Status'],
+                      'priority':                 [2, 'B', 'Priority Status'],
                       'description':              [3, 'C', 'Description'],
                       'school_name':              [4, 'D', 'School Name'],
                       'work_order':               [5, 'E', 'Work Order Number'],
