@@ -1,15 +1,14 @@
-# installation
+# deploy
 cloning repository:
 
 ```
 cd ~/Documents
 git clone https://github.com/MyagkikhKonstantin/pdf-email-parser
-cd pdf-email-parser/email_parser/
 ```
 
 setting parameters:
- * put there *.json file from email
- * set login and password in settings.py
+ * put into `pdf-email-parser/email_parser/` *.json file from email
+ * set login and password into `pdf-email-parser/email_parser/settings.py`
 
  
 installing library for pdf parsing
@@ -18,11 +17,14 @@ installing library for pdf parsing
 
 
 installing python requirements
+
 `pip install -r requirements`
 
-
+# test
 run test
-`python -m unittest discover`
+`
+python -m unittest discover
+`
 
-# run script
+# run
 `/usr/local/bin/email_parser`
