@@ -32,5 +32,5 @@ run test
 to run script automatically, add this line into crontab and set your username
 ```
 sudo vim /etc/crontab
-* * * * username /usr/local/bin/email_parser
+* * * * * username /usr/local/bin/email_parser
 ```
