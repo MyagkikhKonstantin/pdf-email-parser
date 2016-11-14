@@ -1,8 +1,10 @@
 # installation
 cloning repository
 
-`cd ~/Documents`
-`git clone https://github.com/MyagkikhKonstantin/pdf-email-parser`
+```
+cd ~/Documents
+git clone https://github.com/MyagkikhKonstantin/pdf-email-parser
+```
 
 setting parameters
 `cd pdf-email-parser/email_parser/`
